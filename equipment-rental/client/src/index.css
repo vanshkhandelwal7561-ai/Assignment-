@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color: #0f172a;
+  background: #f8fafc;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background: #f8fafc;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.dark body { background: #09090B; }
+.dark .bg-slate-50 { background-color: #09090B; }
+.dark .bg-slate-100 { background-color: #111113; }
+.dark .bg-slate-200 { background-color: #27272A; }
+.dark .bg-white { background-color: #18181B; }
+.dark .text-slate-900 { color: #FAFAFA; }
+.dark .text-slate-800 { color: #FAFAFA; }
+.dark .text-slate-700 { color: #A1A1AA; }
+.dark .text-slate-600, .dark .text-slate-500, .dark .text-slate-400 { color: #71717A; }
+.dark .border-slate-100 { border-color: #27272A; }
+.dark .border-slate-200 { border-color: #27272A; }
+.dark .border-slate-300 { border-color: #3F3F46; }
+.dark .hover\:bg-slate-50:hover { background-color: #18181B; }
+.dark .hover\:bg-slate-100:hover { background-color: #27272A; }
+.dark .bg-blue-50 { background-color: #172554; }
+.dark .text-blue-700, .dark .text-blue-600 { color: #93c5fd; }
+.dark .border-blue-200 { border-color: #1e3a8a; }
+.dark .bg-indigo-50 { background-color: #1e1b4b; }
+.dark .text-indigo-600, .dark .text-indigo-700 { color: #a5b4fc; }
+.dark .bg-amber-50 { background-color: #451a03; }
+.dark .text-amber-600, .dark .text-amber-700, .dark .text-amber-800 { color: #fcd34d; }
+.dark .border-amber-200 { border-color: #92400e; }
+.dark .bg-red-50 { background-color: #450a0a; }
+.dark .text-red-600, .dark .text-red-700 { color: #fca5a5; }
+.dark .border-red-200 { border-color: #7f1d1d; }
+.dark .bg-emerald-50 { background-color: #022c22; }
+.dark .text-emerald-600, .dark .text-emerald-700, .dark .text-emerald-800 { color: #86efac; }
+.dark .border-emerald-200 { border-color: #166534; }
+.dark input, .dark select { color: #FAFAFA; background-color: #18181B; border-color: #3F3F46; }
+.dark input::placeholder { color: #64748b; }
+.dark .shadow-sm { box-shadow: 0 1px 2px rgb(0 0 0 / 0.25); }

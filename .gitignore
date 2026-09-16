@@ -1,0 +1,14 @@
+# Local dependencies and build output
+equipment-rental/**/node_modules/
+equipment-rental/**/dist/
+
+# Local environment files and secrets
+.env
+equipment-rental/**/.env
+!.env.example
+
+# Logs and editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
