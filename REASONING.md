@@ -34,6 +34,64 @@ The repository contains a Vite React client and an Express server under `equipme
 - Admin middleware checks the current user's database role.
 - Mongoose models define users, equipment, and rentals.
 
+## Tech Stack
+
+- Frontend: React 19, Vite, Tailwind CSS, React Router, Axios, and lucide-react
+- Backend: Node.js, Express 5, CORS, dotenv, and nodemon
+- Database: MongoDB Atlas with Mongoose
+- Authentication: JWT and bcrypt
+- Runtime: GitHub Codespaces with Vite on port 5173 and Express on port 5000
+
+## Project Structure
+
+```text
+Assignment-/
+├── README.md
+├── REASONING.md
+├── .gitignore
+└── equipment-rental/
+	├── AI_LOGS.md
+	├── README.md
+	├── client/
+	│   ├── package.json
+	│   ├── vite.config.js
+	│   └── src/
+	│       ├── App.jsx
+	│       ├── api.js
+	│       ├── theme.js
+	│       └── components/
+	│           ├── AdminEquipment.jsx
+	│           ├── AllRentals.jsx
+	│           ├── AuthPage.jsx
+	│           ├── BookingForm.jsx
+	│           ├── Dashboard.jsx
+	│           ├── EquipmentDetails.jsx
+	│           ├── EquipmentList.jsx
+	│           ├── MyRentals.jsx
+	│           ├── ThemeToggle.jsx
+	│           ├── ui.jsx
+	│           └── uiStyles.js
+	└── server/
+		├── package.json
+		├── server.js
+		├── config/db.js
+		├── controllers/
+		│   ├── authController.js
+		│   ├── equipmentController.js
+		│   └── rentalController.js
+		├── middleware/
+		│   ├── adminMiddleware.js
+		│   └── authMiddleware.js
+		├── models/
+		│   ├── Equipment.js
+		│   ├── Rental.js
+		│   └── User.js
+		└── routes/
+			├── authRoutes.js
+			├── equipmentRoutes.js
+			└── rentalRoutes.js
+```
+
 ## Database Design
 
 ### User
