@@ -432,16 +432,3 @@ Approximately 240–260px
 
 Dark mode should be black/charcoal, not blue.
 
-User
-My token finished. Give me the AI_LOGS.md file data.
-
-AI
-AI_LOGS.md should contain the actual complete conversation with the AI tool used during development. Do not fabricate a conversation. If using this ChatGPT conversation, preserve the actual conversation rather than claiming it was a Copilot conversation.
-
-User
-Bro paste conversation with you and end, give me that.
-
-AI
-If you want to use this ChatGPT conversation as the log, preserve the actual conversation and identify it honestly as the ChatGPT conversation. Do not claim it was a Copilot transcript.
-
-End of AI Conversation
